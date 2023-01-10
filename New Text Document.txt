@@ -1,1 +1,2 @@
 Hello My name is Prince Kumar
+github has a feature to host static website 

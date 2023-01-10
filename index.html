@@ -10,10 +10,13 @@
     <h1>My App</h1>
     <!-- <a href="#">My App</a> -->
     <button onclick="fun()">Click Me</button>
-
+    <p id="h1"></p>
     <script>
+        var x = 0; 
+        
         function fun() {
-            console.log("Hello World");
+            // console.log("Hello World", x++);
+            document.getElementById("h1").innerText = "Hello" +  x++;
         }
     </script>
 </body>
